@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/svg" href="imgs/icon-about-love.svg" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- <script src="https://js.stripe.com/v3/"></script> -->
+    <title>About Love | Косметологический марафон</title>
+    <script defer src="slider.js"></script>
+    <script defer src="stripe.js"></script>
+    <script defer src="script.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <div class="about-love"><a href="#top">ABOUT LOVE</a></div>
+      <div class="menu-header">
+        <a href="#format">Формат</a>
+        <a href="#program">Программа</a>
+        <a href="#results">Итог</a>
+        <a href="#guarantee">Гарантия</a>
+      </div>
+    </header>
+    <div class="main">
+      <div id="mobile-menu-icon">
+        <img src="imgs/menu-alt-1_svgrepo.com (1).svg" alt="" />
+      </div>
+      <div class="menu-mobile">
+        <div class="header-mb">
+          <div>ABOUT LOVE</div>
+          <img id="close" src="imgs/Vector (4).svg" alt="" />
+        </div>
+        <div class="main-menu-mb">
+          <div><a href="#format">Формат</a></div>
+          <div><a href="#program">Программа</a></div>
+          <div><a href="#results">Итог</a></div>
+          <div><a href="#guarantee">Гарантия</a></div>
+        </div>
+        <div class="bottom-inst">
+          <a
+            href="https://www.instagram.com/dr.gordiievska_anna?igsh=MXQ4ZDV2MGh3cWY0bg=="
+            target="_blank"
+            ><img src="imgs/Page-1 (1).svg" alt=""
+          /></a>
+        </div>
+        <img class="back-mb" src="imgs/1386068_OYHKDO1-3.webp" alt="" />
+      </div>
+      <div id="popup">
+        <div id="popup-content">
+          <h2>Поздравляем! Транзакция успешно завершена!</h2>
+          <p>Ваш платеж успешно обработан.</p>
+          <button id="close-popup">Закрыть</button>
+        </div>
+      </div>
+      <div class="wrapper">
+        <div class="intro" id="top">
+          <div class="left-intro">
+            <div class="text-into fade-in">
+              <p class="top-text-intro">ОБУЧАЮЩИЙ МАРАФОН ПО КОСМЕТОЛОГИИ</p>
+              <h2>Фокус на коже: марафон ухода и подбора косметики</h2>
+              <p class="bottom-text-intro">
+                Здоровая чистая кожа лица без прыщей, сухости, пигментации, в
+                домашних условиях, не за все деньги мира
+              </p>
+            </div>
+            <div class="imgs-intro fade-in">
+              <div>
+                <span>От</span>
+                <p>АННЫ ГОРДИЕВСКОЙ</p>
+              </div>
+              <div><img src="imgs/5.webp" alt="" /></div>
+            </div>
+            <p class="bottom-text-intro text-show fade-in">
+              Здоровая чистая кожа лица без прыщей, сухости, пигментации, в
+              домашних условиях, не за все деньги мира
+            </p>
+          </div>
+          <div class="right-intro fade-in">
+            <div class="bottom-reg check">
+              <a href="https://t.me/beautiful_transformation_bot"
+                ><p>Зарегистрироваться</p></a
+              >
+            </div>
+            <div class="bottom-img"><img src="imgs/5.webp" alt="" /></div>
+          </div>
+        </div>
+        <div class="intro-reg-show check">
+          <a href="https://t.me/beautiful_transformation_bot"
+            ><p>Зарегистрироваться</p></a
+          >
+        </div>
+        <hr />
+        <div class="bottom-intro">
+          <div class="fade-in">
+            <img class="img-bt1" src="imgs/4.webp" alt="" />
+            <img class="vec1" src="imgs/Vector.svg" alt="" />
+            <img class="vec2" src="imgs/Vector.svg" alt="" />
+            <div class="text-intro-bottom1">
+              Всем, кто <span>ухаживает</span> за своей кожей.
+            </div>
+          </div>
+          <div class="fade-in">
+            <img class="img-bt2" src="imgs/3.webp" alt="" />
+            <img class="vec1-1" src="imgs/Group.svg" alt="" />
+            <img class="vec1-2" src="imgs/Group.svg" alt="" />
+            <div class="text-intro-bottom1">
+              Всем, кто хочет правильно подобрать
+              <span>эффективную косметику</span> и решить проблемы с кожей.
+            </div>
+          </div>
+        </div>
+        <div class="about-me">
+          <h2 class="fade-in">ОБО МНЕ</h2>
+          <div class="con-about">
+            <div class="left-about-me fade-in">
+              <div class="tx-about-left1"><p>Анна Гордиевская</p></div>
+              <div class="tx-about-left2"><p>46 лет</p></div>
+            </div>
+            <div class="right-about-me">
+              <div class="con-left-about1 fade-in">
+                <div></div>
+                <div>25 ЛЕТ В БОЛЬШОЙ МЕДИЦИНЕ</div>
+              </div>
+              <div class="con-left-about2 fade-in">
+                <div><img src="imgs/grad.svg" alt="" /></div>
+                <div>
+                  Выпускница Национального Медицинского Университета
+                  им.Богомольца в г.Киев по специальности
+                  <span>«стоматология»</span>
+                </div>
+              </div>
+              <div class="con-left-about3 fade-in">
+                <div><img src="imgs/grad.svg" alt="" /></div>
+                <div>Второе <span>высшее образование</span></div>
+              </div>
+              <div class="con-left-about4 fade-in">
+                <div><img src="imgs/Gro.svg" alt="" /></div>
+                <div><span>Польский</span> диплом косметолога</div>
+              </div>
+              <div class="con-left-about5 fade-in">
+                <div><img src="imgs/Component 7.svg" alt="" /></div>
+                <div>
+                  Более <span>50 семинаров</span> и конференций для врачей и
+                  косметологов по всей Европе
+                </div>
+              </div>
+              <div class="bottom-text-about fade-in">
+                <p>
+                  Огромный кусок своей жизни я посвятила именно этой сфере
+                  медицины.
+                </p>
+                <p>
+                  Поэтому об анатомии, физиологии и эстетике головы и шеи я знаю
+                  всё.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="bottom-about-me fade-in">
+            В своей работе я специализируюсь в
+            <span>инъекционных техниках эстетической медицины</span>. Но, как
+            врач, я использую комплексный подход в косметологии, так как считаю,
+            что одними процедурами в кабинете врача добиться прекрасных и
+            устойчивых результатов <span>невозможно.</span>
+          </div>
+        </div>
+        <hr />
+
+        <div id="format">
+          <h2>ФОРМАТ</h2>
+          <p class="subtitle">7МИ-ДНЕВНЫЙ ОНЛАЙН-МАРАФОН</p>
+          <div class="con-format">
+            <div class="item-format">
+              <div class="part1-format"></div>
+              <div class="part2-format">1 6</div>
+              <div class="part3-format">УРОКОВ</div>
+              <div class="part4-format"></div>
+            </div>
+            <div class="item-format">
+              <div class="part1-format"></div>
+              <div class="part2-format">1</div>
+              <div class="button-format check">
+                <a href="https://t.me/beautiful_transformation_bot"
+                  >Купить со скидкой 70%</a
+                >
+              </div>
+              <div class="part3-format">МАСТЕР-КЛАСС</div>
+              <div class="part4-format"></div>
+            </div>
+            <div class="item-format">
+              <div class="part1-format"></div>
+              <div class="part2-format">3</div>
+              <div class="part3-format">СПРИНТ-ЗАДАНИЯ</div>
+              <div class="part4-format"></div>
+            </div>
+            <div class="love">ABOUT LOVE</div>
+          </div>
+        </div>
+      </div>
+      <div id="program">
+        <div class="left-program">
+          <div><h2>ПРОГРАММА КУРСА</h2></div>
+        </div>
+        <div class="right-program">
+          <div class="progarm-item1">
+            <img src="imgs/Component 5.svg" alt="" class="fade-in" />
+            <div class="modul">
+              <p class="fade-in">МОДУЛЬ <span>1</span></p>
+            </div>
+            <div class="text-program1">
+              <p class="fade-in">
+                <span>Вводный урок. Знакомство. Краткое введение.</span>
+              </p>
+              <p class="fade-in">Классификация типов и состояний кожи.</p>
+              <p class="fade-in">Знакомство со своей кожей.</p>
+            </div>
+            <div class="button-program check fade-in">
+              <a href="https://t.me/beautiful_transformation_bot"
+                >Купить со скидкой 70%</a
+              >
+            </div>
+            <div class="indicator1">
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+          </div>
+          <div class="progarm-item2">
+            <img
+              src="imgs/cosmetic-brush_svgrepo.com.svg"
+              alt=""
+              class="fade-in"
+            />
+            <div class="modul">
+              <p class="fade-in">МОДУЛЬ <span>2</span></p>
+            </div>
+            <div class="text-program2">
+              <p class="fade-in">
+                Базовые этапы утреннего и вечернего ритуалов
+                <span>ухода за кожей.</span>
+              </p>
+              <p class="fade-in">
+                <span>Значение и цель</span> каждого этапа ухода за кожей.
+              </p>
+              <p class="fade-in">
+                Изучение средств, которыми проводится
+                <span>каждый шаг ухода.</span>
+              </p>
+              <p class="fade-in">
+                Как выглядит здоровая кожа в результате домашнего ухода
+                <span>глазами доктора.</span>
+              </p>
+            </div>
+            <div class="button-program check fade-in">
+              <a href="https://t.me/beautiful_transformation_bot">
+                Купить со скидкой 70%
+              </a>
+            </div>
+            <div class="indicator2">
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+          </div>
+          <div class="progarm-item3">
+            <img src="imgs/water-drop_svgrepo.com.svg" alt="" class="fade-in" />
+            <div class="modul">
+              <p class="fade-in">МОДУЛЬ <span>3</span></p>
+            </div>
+            <div class="text-program3">
+              <p class="fade-in">
+                Алгоритм подбора уходовых средств под
+                <span>каждый тип и состояние кожи.</span>
+              </p>
+              <p class="fade-in">
+                Ключевые ингредиенты и активы в составах средств для
+                <span>разных типов кожи.</span>
+              </p>
+              <p class="fade-in">
+                Что <span>должно присутствовать</span> в составах уходовых
+                средств домашнего ухода.
+              </p>
+              <p class="fade-in">
+                <span>Самостоятельный подбор</span> косметических средств под
+                потребности вашей кожи.
+              </p>
+            </div>
+            <div class="button-program check fade-in">
+              <a href="https://t.me/beautiful_transformation_bot">
+                Купить со скидкой 70%
+              </a>
+            </div>
+            <div class="indicator3">
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+          </div>
+          <div class="btn-program-mb check fade-in">
+            <a href="https://t.me/beautiful_transformation_bot">
+              <p class="p-btn">Купить со скидкой 70%</p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="wrapper">
+        <div id="results">
+          <h2>ПО ИТОГУ МАРАФОНА</h2>
+          <p class="subtitle">В РЕЗУЛЬТАТЕ МАРАФОНА ВЫ ПОЛУЧАЕТЕ</p>
+          <div class="con-results">
+            <div class="item-results fade-in">
+              Очищенную кожу без ощущения сухости и стягивания
+            </div>
+            <div class="item-results fade-in">
+              Гладкую, бархатистую сияющую здоровым блеском и цветом кожу
+            </div>
+            <div class="item-results fade-in">
+              Удовольствие от собственного отражения в зеркале
+            </div>
+            <div class="item-results fade-in">
+              Уменьшение высыпаний и черных точек
+            </div>
+            <div class="item-results fade-in">
+              Самостоятельно грамотно подобранную линейку уходовых средств
+            </div>
+            <div class="item-results check fade-in">
+              <a href="https://t.me/beautiful_transformation_bot"
+                >Купить со скидкой 70%</a
+              >
+            </div>
+            <div class="back-results"></div>
+          </div>
+        </div>
+        <div class="what-else">
+          <h2>ЧТО ЕЩЕ ВХОДИТ?</h2>
+          <div class="con-what-else">
+            <div class="item-what-else1 fade-in">
+              <div class="in-what-else">
+                Чат участников
+                <img src="imgs/massage.png" alt="" />
+              </div>
+              <img src="imgs/1386068_OYHKDO1-1.webp" alt="" />
+            </div>
+            <div class="item-what-else2 fade-in">
+              <div class="in-what-else">
+                Канал отчетов
+                <img src="imgs/Vector (3).png" alt="" />
+              </div>
+              <img src="imgs/1386068_OYHKDO1-2.webp" alt="" />
+            </div>
+            <div class="item-what-else3 fade-in">
+              <div class="in-what-else">
+                Челлендж <br />
+                “Свой набор ухода”
+                <img src="imgs/Component 8.svg" alt="" />
+              </div>
+              <img src="imgs/1386068_OYHKDO1-3.webp" alt="" />
+            </div>
+          </div>
+          <div class="con-slider fade-in">
+            <div class="slider">
+              <div class="item-slide1">
+                <img
+                  class="img-slider"
+                  src="imgs/1386068_OYHKDO1.webp"
+                  alt=""
+                />
+                <div>
+                  <img src="imgs/massage.png" alt="" />
+                  <p>Чат участников</p>
+                </div>
+              </div>
+              <div class="item-slide2">
+                <img
+                  class="img-slider"
+                  src="imgs/1609700_P2PEG61.webp"
+                  alt=""
+                />
+                <div>
+                  <img src="imgs/Vector (3).png" alt="" />
+                  <p>Канал отчетов</p>
+                </div>
+              </div>
+              <div class="item-slide3">
+                <img
+                  class="img-slider"
+                  src="imgs/1386068_OYHKDO1-3.webp"
+                  alt=""
+                />
+                <div>
+                  <img src="imgs/Component 8.svg" alt="" />
+                  <p>Челлендж</p>
+                  <p>“Свой набор ухода”</p>
+                </div>
+              </div>
+            </div>
+            <div class="slider-dots"></div>
+          </div>
+          <div class="button-what-else check fade-in">
+            <a href="https://t.me/beautiful_transformation_bot"
+              ><p>Купить со скидкой 70%</p></a
+            >
+          </div>
+        </div>
+        <div class="guarantee">
+          <div class="con-guarantee" id="guarantee">
+            <p>Гарантия</p>
+            <div class="text-guarantee">
+              ПОЖИЗНЕННЫЙ ДОСТУП К ОБУЧАЮЩИМ УРОКАМ
+            </div>
+            <div class="left-img-guarantee">
+              <img src="imgs/1.webp" alt="" />
+              <img src="imgs/2.webp" alt="" />
+              <img src="imgs/2.webp" alt="" />
+              <img src="imgs/15426402_creambottles2.webp" alt="" />
+            </div>
+            <div class="right-img-guarantee">
+              <img src="imgs/9525266.webp" alt="" />
+            </div>
+          </div>
+        </div>
+        <hr class="bot-hr" />
+        <div class="registration">
+          <div class="con-registration">
+            <div class="left-registration">
+              <img src="imgs/10658084.webp" alt="" />
+              <p>ЗАРЕГИСТРИРУЙСЯ НА КУРС СЕЙЧАС</p>
+              <div>и получи <span>70% скидки</span></div>
+              <div class="img-reg">
+                <a
+                  href="https://www.instagram.com/dr.gordiievska_anna?igsh=MXQ4ZDV2MGh3cWY0bg=="
+                  target="_blank"
+                  ><img src="imgs/Page-1 (1).svg" alt=""
+                /></a>
+              </div>
+              <div class="check button-registration">
+                <a href="https://t.me/beautiful_transformation_bot"
+                  ><p>Получить курс</p></a
+                >
+              </div>
+            </div>
+            <div class="line-reg"></div>
+            <div class="right-registration">
+              <div class="con-right-reg">
+                <img src="imgs/10658084.webp" alt="" />
+              </div>
+              <div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
